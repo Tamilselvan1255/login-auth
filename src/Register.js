@@ -49,7 +49,7 @@ const Register = () => {
         e.preventDefault();
         let regobj = { id, name, password, email, phone, country, address, gender };
         if(IsValidate()){
-        fetch("https://login-auth-rho.vercel.app/user", {
+        fetch("http://localhost:8000/user/", {
             method: "POST",
             headers: { 'content-type': 'application/json' },
             body: JSON.stringify(regobj)
