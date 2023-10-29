@@ -14,3 +14,10 @@
   width: 20px;
   margin: 1%;
 }
+
+.colu {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

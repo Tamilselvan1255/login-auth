@@ -63,8 +63,8 @@ const Register = () => {
     }
     return (
         <div>
-            <div className="offset-lg-3 col-lg-6" style={{position: 'absolute', top: '50%', left: '50%', transform: 'translate(-100%, -50%'}}>
-                <form className="container" onSubmit={handleSubmit}>
+            <div className="offset-lg-3 col-lg-6">
+                <form className="container colu" onSubmit={handleSubmit}>
                     <div className="card">
                         <div className="card-header text-center">
                             <h1>User Registration</h1>

@@ -15,7 +15,7 @@ const Login = () => {
     const ProceedLogin = (e) => {
         e.preventDefault();
         if (validate()) {
-            fetch('http://localhost:8000/user/' + username).then((res) => {
+            fetch("http://localhost:8000/user/" + username).then((res) => {
                 return res.json();
             }).then((resp) => {
                 if(Object.keys(resp).length===0){
@@ -48,7 +48,7 @@ const Login = () => {
         return result;
     }
     return (
-       <div className='container' style={{width: '800px', position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -50%'}}>
+       <div className='container colu'>
          <div className='row'>
             <div className='offset-lg-3 col-lg-6'>
                 <form onSubmit={ProceedLogin} className='container'>
