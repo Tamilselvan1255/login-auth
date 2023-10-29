@@ -15,7 +15,7 @@ const Login = () => {
     const ProceedLogin = (e) => {
         e.preventDefault();
         if (validate()) {
-            fetch("http://localhost:8000/user/" + username).then((res) => {
+            fetch("https://login-auth-rho.vercel.app/" + username).then((res) => {
                 return res.json();
             }).then((resp) => {
                 if(Object.keys(resp).length===0){

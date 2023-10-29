@@ -22,10 +22,10 @@ const Home = () => {
                             href="#"
                             className="nav-link active">Home</a></li>
                     </div>
-                    <div className="float-end"><a
+                    {/* <div className="float-end"><a
                         href="http://localhost:8000/login"
                         className="nav-link"></a>
-                    </div>
+                    </div> */}
                     <Link to={'/login'}><button className="btn btn-danger">Logout</button></Link>
                 </div>
             </nav>
