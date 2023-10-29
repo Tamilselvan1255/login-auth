@@ -1,0 +1,24 @@
+{
+  "user": [
+    {
+      "id": "tamil43",
+      "name": "Tamilselvan",
+      "password": "1255",
+      "email": "tamilselvan0677@gmail.com",
+      "phone": "9788825633",
+      "country": "india",
+      "address": "nothing",
+      "gender": "male"
+    },
+    {
+      "id": "DTadmin",
+      "name": "driftmarkTechnologies",
+      "password": "dtadmin",
+      "email": "tamilselvan0677@gmail.com",
+      "phone": "9788825633",
+      "country": "india",
+      "address": "nothing",
+      "gender": "male"
+    }
+  ]
+}
